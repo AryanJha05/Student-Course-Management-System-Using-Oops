@@ -42,18 +42,7 @@ A simple console-based Course Management System implemented in plain Java using 
 
 - Java JDK 17+ recommended (works with Java 11+). Ensure `javac` and `java` are in PATH.
 
-## Quick Start (Windows PowerShell)
-
-From the project folder `D:\Desktop\CodeVerse\java`:
-
-```powershell
-# Compile all .java files
-javac d:\Desktop\CodeVerse\java\*.java
-
-# Run the app (entry class is MainApp)
-java -cp d:\Desktop\CodeVerse\java MainApp
-```
-
+---
 You should see the main menu with options for Admin Login, Student Login, and Student Registration.
 
 ## Default Admin Credentials
@@ -106,3 +95,4 @@ The app uses custom exceptions for clean error handling, caught in `main.java` a
 - Add role management and more granular permissions
 
 Enjoy building and learning from this minimal, console-based system!
+
